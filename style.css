@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDV2eXhwZnN2OHBwZmhwaGpnYjlhOWpsbGZkdHFrNnQ0OWVjczBnMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WPwD0gdWFsNRy8LA2P/giphy.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.box{
+    background-color: rgba(212, 133, 133, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type = "password"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1 px solid #000;
+    border-radius: 5px;
+}
+
+input[type="button"]{
+    padding: 10px 15px;
+    background-color: #ff005d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color: #b3000c;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
